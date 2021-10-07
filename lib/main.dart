@@ -2,10 +2,10 @@ import 'package:fl_chart/fl_chart.dart' as ch;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:shitshow/app_routes.dart';
-import 'package:shitshow/constants.dart';
+import 'app_routes.dart';
+import 'constants.dart';
 
-import 'package:shitshow/page/welcome/welcome.dart';
+import 'page/welcome/welcome.dart';
 
 void main() {
   runApp(MyApp());

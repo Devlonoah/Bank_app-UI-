@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:shitshow/app_size_functions.dart';
-import 'package:shitshow/constants.dart';
-import 'package:shitshow/page/cards/cards.dart';
-import 'package:shitshow/page/drawer/drawer_widget.dart';
-import 'package:shitshow/page/home/widget/barchat_widgets.dart';
-import 'package:shitshow/page/home/widget/border_box.dart';
+import '../../app_size_functions.dart';
+import '../../constants.dart';
+import '../cards/cards.dart';
+import '../drawer/drawer_widget.dart';
+import 'widget/barchat_widgets.dart';
+import 'widget/border_box.dart';
 
 class HomePage extends StatelessWidget {
   static String id = 'HomePage';

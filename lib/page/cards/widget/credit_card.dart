@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shitshow/app_size_functions.dart';
-import 'package:shitshow/constants.dart';
+import '../../../app_size_functions.dart';
+import '../../../constants.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CreditCardWidget extends StatelessWidget {

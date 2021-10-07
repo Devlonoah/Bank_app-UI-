@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shitshow/constants.dart';
+import '../../../constants.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class HeaderAndCardCount extends StatelessWidget {

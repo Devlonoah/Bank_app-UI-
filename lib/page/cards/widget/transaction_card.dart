@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'package:shitshow/app_size_functions.dart';
-import 'package:shitshow/constants.dart';
+import '../../../app_size_functions.dart';
+import '../../../constants.dart';
 
 class TransactionCard extends StatelessWidget {
   final IconData icon;

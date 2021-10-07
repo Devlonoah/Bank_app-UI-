@@ -1,6 +1,6 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-import 'package:shitshow/constants.dart';
+import '../../../constants.dart';
 
 class CustomBarChart extends StatelessWidget {
   const CustomBarChart({Key? key}) : super(key: key);

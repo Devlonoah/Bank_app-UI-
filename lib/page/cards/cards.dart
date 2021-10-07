@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:shitshow/app_size_functions.dart';
-import 'package:shitshow/constants.dart';
-import 'package:shitshow/page/cards/widget/barrel.dart';
+import '../../app_size_functions.dart';
+import '../../constants.dart';
+import 'widget/barrel.dart';
 
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
