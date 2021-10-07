@@ -1,0 +1,18 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+addVerticalSpace(double height) {
+  return SizedBox(height: height.h);
+}
+
+addHorizontalSpace(double width) {
+  return SizedBox(width: width.w);
+}
+
+manualVerticalSpace(double height) {
+  return SizedBox(height: height);
+}
+
+manualHorizontalSpace(double width) {
+  return SizedBox(width: width);
+}
