@@ -1,4 +1,4 @@
-# shitshow
+# Bank App
 
 A new Flutter project.
 
