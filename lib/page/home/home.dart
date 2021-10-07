@@ -22,10 +22,10 @@ class HomeBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TweenAnimationBuilder(
-      tween: Tween<double>(begin: 0, end: 1),
-      duration: Duration(seconds: 1),
+      tween: Tween<double>(begin: 0.4, end: 1),
+      duration: Duration(milliseconds: 500),
+      curve: Curves.easeIn,
       builder: (context, double value, child) {
-        print(value);
         return Opacity(opacity: value, child: child);
       },
       child: Scaffold(
@@ -38,6 +38,7 @@ class HomeBody extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(right: 10.w),
               child: CircleAvatar(
+                radius: 18.r,
                 backgroundColor: COLOR_GREY_PINK,
               ),
             )

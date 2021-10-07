@@ -4,7 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'package:shitshow/app_size_functions.dart';
 import 'package:shitshow/constants.dart';
-import 'package:shitshow/page/drawer/widget.dart';
+import 'package:shitshow/page/drawer/widget/custom_tile.dart';
 
 class DrawerWidget extends StatelessWidget {
   const DrawerWidget({Key? key}) : super(key: key);
@@ -69,14 +69,13 @@ class AvatarAndOccupation extends StatelessWidget {
       children: [
         Align(
             alignment: Alignment.centerLeft,
-            child: CircleAvatar(backgroundColor: Colors.blueGrey)),
+            child:
+                CircleAvatar(backgroundColor: Colors.blueGrey, radius: 18.r)),
         addVerticalSpace(10),
-        Text(
-          'Ghulam',
-          style: subHeaderTextStyle.copyWith(fontWeight: FontWeight.w600),
-        ),
+        Text('Opeyemi .N',
+            style: subHeaderTextStyle.copyWith(fontWeight: FontWeight.w600)),
         addVerticalSpace(7),
-        Text('UX UI Designer', style: subtitleTextStyle)
+        Text('Software Developer', style: subtitleTextStyle2)
       ],
     );
   }

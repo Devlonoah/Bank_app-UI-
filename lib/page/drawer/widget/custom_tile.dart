@@ -40,7 +40,7 @@ class CustomListTile extends StatelessWidget {
         hasNotification
             ? Positioned(
                 top: 9.h,
-                left: 25.0.w,
+                left: 20.0.w,
                 child: CircleAvatar(
                   radius: 5.r,
                   backgroundColor: COLOR_SUN_YELLOW,
