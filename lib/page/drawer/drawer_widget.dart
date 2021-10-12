@@ -13,44 +13,47 @@ class DrawerWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       child: Container(
+        height: 690.h,
+        width: 360.w,
         color: Colors.black,
         padding: EdgeInsets.symmetric(horizontal: 20.w),
-        child: Column(
-          children: [
-            addVerticalSpace(50),
-            Align(alignment: Alignment.topRight, child: CancelButton()),
-            AvatarAndOccupation(),
-            addVerticalSpace(20),
-            Column(
-              children: [
-                CustomListTile(
-                    icon: FontAwesomeIcons.home,
-                    onPress: () {},
-                    label: 'Corporate APP'),
-                CustomListTile(
-                    icon: FontAwesomeIcons.diceFive,
-                    label: 'Security Settings',
-                    hasNotification: true,
-                    onPress: () {}),
-                CustomListTile(
-                    icon: FontAwesomeIcons.shoppingCart,
-                    label: 'Online Shopping',
-                    onPress: () {}),
-                CustomListTile(
-                    icon: FontAwesomeIcons.shoppingBasket,
-                    onPress: () {},
-                    label: 'Groceries'),
-                CustomListTile(
-                    icon: FontAwesomeIcons.wrench,
-                    label: 'Utilities',
-                    onPress: () {}),
-                CustomListTile(
-                    icon: FontAwesomeIcons.fingerprint,
-                    label: 'Thumb Scanner',
-                    onPress: () {}),
-              ],
-            )
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              addVerticalSpace(50),
+              AvatarAndOccupation(),
+              addVerticalSpace(20),
+              Column(
+                children: [
+                  CustomListTile(
+                      icon: FontAwesomeIcons.home,
+                      onPress: () {},
+                      label: 'Corporate APP'),
+                  CustomListTile(
+                      icon: FontAwesomeIcons.diceFive,
+                      label: 'Security Settings',
+                      hasNotification: true,
+                      onPress: () {}),
+                  CustomListTile(
+                      icon: FontAwesomeIcons.shoppingCart,
+                      label: 'Online Shopping',
+                      onPress: () {}),
+                  CustomListTile(
+                      icon: FontAwesomeIcons.shoppingBasket,
+                      onPress: () {},
+                      label: 'Groceries'),
+                  CustomListTile(
+                      icon: FontAwesomeIcons.wrench,
+                      label: 'Utilities',
+                      onPress: () {}),
+                  CustomListTile(
+                      icon: FontAwesomeIcons.fingerprint,
+                      label: 'Thumb Scanner',
+                      onPress: () {}),
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );
@@ -69,8 +72,11 @@ class AvatarAndOccupation extends StatelessWidget {
       children: [
         Align(
             alignment: Alignment.centerLeft,
-            child:
-                CircleAvatar(backgroundColor: Colors.blueGrey, radius: 18.r)),
+            child: CircleAvatar(
+              backgroundColor: Colors.blueGrey,
+              radius: 18.r,
+              child: Image.asset('assets/avatar/avatar.png'),
+            )),
         addVerticalSpace(10),
         Text('Opeyemi .N',
             style: subHeaderTextStyle.copyWith(fontWeight: FontWeight.w600)),

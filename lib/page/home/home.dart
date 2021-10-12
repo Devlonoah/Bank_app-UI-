@@ -40,6 +40,7 @@ class HomeBody extends StatelessWidget {
               child: CircleAvatar(
                 radius: 18.r,
                 backgroundColor: COLOR_GREY_PINK,
+                child: Image.asset('assets/avatar/avatar.png'),
               ),
             )
           ],
