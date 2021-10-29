@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../constants.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../../../constants.dart';
 
 class CustomListTile extends StatelessWidget {
   const CustomListTile({
