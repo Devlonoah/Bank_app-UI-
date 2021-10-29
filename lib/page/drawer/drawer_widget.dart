@@ -32,7 +32,7 @@ class DrawerWidget extends StatelessWidget {
                   CustomListTile(
                       icon: FontAwesomeIcons.diceFive,
                       label: 'Security Settings',
-                      hasNotification: true,
+                      hasNotification: false,
                       onPress: () {}),
                   CustomListTile(
                       icon: FontAwesomeIcons.shoppingCart,
